@@ -1,0 +1,46 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+.navItems{
+    display: flex;
+}
+
+.navItems a{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 100px;
+    color: white;
+}
+
+
+
+.image-container{
+    position: relative;
+}
+.image-container img{
+    height: 550px;
+    width: 100%;
+    margin-top: 16px;
+}
+.overlayAbout{
+    position: absolute;
+    top: 330px;
+    bottom: 0;
+    left: 0;
+    right: 800px;
+    background-color: transparent; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px; 
+}
+
+.carousel-item img{
+    height: 600px;
+}
